@@ -38,6 +38,7 @@ export default function App() {
   function addTodo(todo) {
     setTodos(todos => [...todos, todo]);
   }
+  
   return (
     <div className="App">
       <h1>Things To Do</h1>
